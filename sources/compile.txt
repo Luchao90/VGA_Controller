@@ -1,0 +1,16 @@
+Para analizar o compilar los códigos utilizamos el comando ghdl con la opción -a:
+
+ghdl -a compnot1.vhdl
+ghdl -a tb_compnot1.vhdl
+
+Ahora los enlazamos con el comando ghdl con la opción -e, indicando el nombre del ejecutable (nombre del archivo test bench sin extensión): 
+
+ghdl -e tb_compnot1
+
+Ejecutamos el proyecto indicando el tiempo de simulación con --stop-time= y el nombre del archivo de resultados con --vcd=:
+
+ghdl -r tb_compnot1 --stop-time=100ns --vcd=resultados.vcd
+
+Finalmente para visualizar los resultados, utilizamos el comando:
+
+gtkwave resultados.vcd

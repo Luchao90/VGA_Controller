@@ -1,0 +1,4 @@
+# Git ignore for VHDL
+
+*.vcd
+*.cf
