@@ -2,7 +2,7 @@
 
 Metodología de trabajo que se utilizó para construir un controlador VGA en una FPGA de XILINX con lenguaje VHDL. 
 
-Este trabajo genera un patrón de video fijo y se realizó en el contexto de la materia de circuitos lógicos programables, maestría en sistemas embebidos de la UBA, año 2020.
+Este trabajo genera un patrón de video fijo y se realizó en el contexto de la materia de circuitos lógicos programables, carrera de especialización en sistemas embebidos de la UBA, año 2020.
 
 
 ![result](images/result.jpg "image_tooltip")
